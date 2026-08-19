@@ -10,3 +10,8 @@ nav{display:flex;overflow:auto;gap:7px;padding:12px 0;position:sticky;top:75px;b
 dialog{width:min(650px,calc(100% - 18px));max-height:90vh;border:0;border-radius:16px;padding:18px}dialog::backdrop{background:#0c141bb0}.dlghead h2{margin:0}.dlghead button{background:#edf1f3;color:var(--ink);font-size:20px;padding:7px 11px}.field{margin-top:12px}.field label{font-size:12px;font-weight:800;display:block;margin-bottom:5px}.field input,.field textarea,.field select{width:100%;padding:11px;border:1px solid #cbd2d7;border-radius:9px}.field textarea{min-height:90px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:9px}.actions{justify-content:flex-end;margin-top:16px}.danger{background:#f4dfdf;color:#8d2828}.measure{font-size:19px;font-weight:800;color:var(--blue)}#report{display:none}
 @media(min-width:700px){.cards{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(4,1fr)}.photos{grid-template-columns:repeat(4,1fr)}}
 @media print{header,main,dialog{display:none!important}#report{display:block!important;font-family:Arial;color:#111;padding:10mm}#report h1{font-size:26pt}.rsec{margin:8mm 0}.rsec h2{border-bottom:1px solid #555}.ritem{break-inside:avoid;border:1px solid #aaa;padding:4mm;margin:3mm 0}.rimg{width:70mm;max-height:55mm;object-fit:cover}@page{size:A4;margin:14mm}}
+.issue-badges{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:7px}
+.priority-badge{letter-spacing:.03em}
+.priority-alta{background:#f6dddd;color:#8f2929}
+.priority-media{background:#fff0d5;color:#81550b}
+.priority-baja{background:#e5eff4;color:#426d84}
