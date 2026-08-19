@@ -1,0 +1,16 @@
+{
+  "name": "Obra Companion",
+  "short_name": "Obra",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef1f3",
+  "theme_color": "#17212b",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

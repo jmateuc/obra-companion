@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17212b"><meta name="apple-mobile-web-app-capable" content="yes">
+<title>Obra Companion</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head><body>
+<header><div><small>OBRA COMPANION</small><h1 id="title">Mis obras</h1></div><button id="back" hidden>‹</button></header>
+<main>
+<section id="home">
+<div class="lead"><div><h2>Proyectos</h2><p>Seguimiento técnico desde obra.</p></div><button id="newProject">＋ Nueva obra</button></div>
+<div id="projects" class="cards"></div><div id="empty" class="empty">Todavía no hay obras.<br>Crea la primera para empezar.</div>
+<label class="import">Importar copia JSON<input id="importFile" type="file" accept=".json,application/json" hidden></label>
+</section>
+<section id="project" hidden>
+<div class="hero"><span id="ptype"></span><h2 id="pname"></h2><p id="paddress"></p><button id="editProject">Editar obra</button></div>
+<nav id="tabs"></nav>
+<div id="content"></div>
+</section>
+</main>
+<dialog id="dlg"><form id="form"><div class="dlghead"><h2 id="dlgTitle"></h2><button type="button" id="close">×</button></div><div id="fields"></div><div class="actions"><button type="button" id="del" class="danger" hidden>Eliminar</button><button>Guardar</button></div></form></dialog>
+<div id="report"></div>
+<script src="app.js"></script></body></html>
